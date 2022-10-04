@@ -4,6 +4,8 @@
 
 let playChoice;
 let compChoice;
+let playScore;
+let compScore;
 
 function getComputerChoice(){
     return Math.floor(Math.random()*3)
